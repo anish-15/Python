@@ -22,3 +22,20 @@ set = {1, 2, 3, 4}
 set.remove(4) or set.discard(4)
 print(set)
 # Output: {1, 2, 3}
+
+
+## Union operation
+A = {1, 2, 3}
+B = {6, 7, 8}
+# use | operator, act as union
+print(A | B)
+# Output: {1, 2, 3, 6, 7, 8}
+
+
+## Intersection operation
+A = {1, 2, 3}
+B = {2, 3, 4}
+# use & operator, act as Intersection
+# print common elements
+print(A & B)
+# Output: {2,3}
