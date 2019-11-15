@@ -1,0 +1,10 @@
+## Add or change value:
+dict = {'name':'Ram', 'age': 26}
+# update value
+dict['age'] = 27
+# add element
+dict['address'] = 'india'  
+print(dict)
+#Output: {'age': 27, 'name': 'Ram', 'address': 'India'}
+
+
