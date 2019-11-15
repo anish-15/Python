@@ -1,0 +1,48 @@
+## Empty tuple
+tuple = ()
+print(tuple) 
+# Output: ()
+
+
+## Tuple with integers
+tuple = (1, 2, 3)
+print(tuple)  
+# Output: (1, 2, 3) 
+
+
+## Tuple with mixed datatypes
+tuple = (1, "Hello", 3.4)
+print(tuple) 
+# Output: (1, "Hello", 3.4)  
+
+
+## nested tuple
+tuple = ("hello", [8, 4, 6], (1, 2, 3))
+print(my_tuple)
+# Output: ("hello", [8, 4, 6], (1, 2, 3)) 
+
+
+## Accessing Tuple with index number
+tuple = (1, "Hello", 3.4)
+print(tuple[1]) 
+# Output: Hello
+
+
+## Changing a Tuple
+tuple = (4, 2, 3, [6, 5])
+# TypeError: 'tuple' object does not support item assignment
+# tuple[1] = 9
+# item of mutable element can be changed
+tuple[3][0] = 9    
+print(my_tuple)
+# Output: (4, 2, 3, [9, 5])
+
+
+## Delete a tuple
+my_tuple = ('h','e','l','l','o')
+
+# We can't delete items
+# TypeError: 'tuple' object doesn't support item deletion
+# del my_tuple[3]
+# We can delete an entire tuple
+del my_tuple
