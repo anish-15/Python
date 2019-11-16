@@ -1,0 +1,32 @@
+## code to demonstrate variable assignment
+a = 5
+# printing value of a 
+print ("The value of a is: " + str(a)) 
+# Output: The value of a is: 5
+
+
+
+## Program to swap two variables in single line 
+x = 5
+y = 10
+x, y = y, x 
+print (x, y) 
+# Output: (10,5)
+
+
+
+## Program to show that the variables with a value
+class Student:
+    # Class Variable (variable define during class declaration)
+    stream = 'cs'
+    # The init method or constructor 
+    def __init__(self, roll):
+        # Instance Variable (variable which are assigned values inside class methods)
+        self.roll = roll       
+# Objects of class
+a = Student(10)
+b = Student(20)
+print(a.stream)  # Output: "cs"
+print(a.roll)  # Output: 10
+# Class variables can be accessed by using class name also
+print(Student.stream)  # Output: "cs"
