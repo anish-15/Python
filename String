@@ -10,3 +10,33 @@ print(String[0])
 # Printing 1st to 5th character by using slicing
 print(String[1:6])
 # Output:ello 
+
+
+## Program to check if a string is palindrome or not:
+string =input('enter a string: ')
+# Reverse the string
+rev_string= string[::-1]
+# Match the string
+if string==rev_string:
+    print('palindrome')
+else:
+    print('not palindrome')
+# Output: enter a string: mom 
+#'palindrome'
+
+
+## Reverse string:
+# Define a function and take string as a input
+def reverse(string):
+# Store revese Stringvalue
+    r= ""
+# For loop to run every character of input-string 
+    for i in string:
+# Concatenate i with reverse string
+        r = i+r
+    print('reverse_string is:', r)
+# Input a string
+string=input('enter a string')
+print('entered string',string)
+# Call Reverse function
+reverse(string)
