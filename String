@@ -40,3 +40,20 @@ string=input('enter a string')
 print('entered string',string)
 # Call Reverse function
 reverse(string)
+
+
+## Program to remove Duplicate character from a string:
+# User input: aabbcc
+s= input("enter a string")
+i=0
+# To store value
+s1= ""
+# Run every characters of String
+for x in s:
+# Check 
+    if s.index(x)==i:
+# Append x in s1
+        s1+=x
+    i+=1
+print(s1)
+# Output: abc
