@@ -3,7 +3,7 @@ String = "hello World"
 print(String)
 # Output: hello world
 
-# Printing First character 
+# Printing First character
 print(String[0]) 
 # Output: h
 
