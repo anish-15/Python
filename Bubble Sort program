@@ -1,4 +1,4 @@
-## Program for Buble sort:
+## Program for Bubble sort:
 def sort(list):
 # Take range of list 
     for i in range(len(list)-1,0,-1):
