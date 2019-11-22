@@ -1,0 +1,17 @@
+# Parent class
+class A:
+    def feature1(self):
+        print("feature 1")
+# child class
+# By using parent class name it can call parent class 
+class B(A):
+    def feature2(self):
+        print("feature 2")
+a = A()
+a.feature1()
+
+b = B()
+b.feature2()
+
+## Output: feature 1
+           feature 2
