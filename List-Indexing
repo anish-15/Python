@@ -1,0 +1,20 @@
+## NEGATIVE INDEXING:
+# a list of strings
+list = ["hello", "world", "hi", "bye"]
+# prints "bye"
+print(list[-1])
+# prints "world"
+print(list[-3])
+
+# OUTPUT: bye, world
+
+
+## INDEXING:
+# a list of strings
+list = ["hello", "world", "hi", "bye"]
+# prints "bye"
+print(list[1])
+# prints "world"
+print(list[3])
+
+# OUTPUT: world, bye
