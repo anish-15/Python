@@ -1,0 +1,15 @@
+## LIST OPERATIONS:
+# list of numbers
+list = [1, 2, 3, 4]
+
+# 1. adding item at the desired location
+# adding element 100 at the fourth location
+list.insert(3, 100)
+# list: [1, 2, 3, 100, 4]
+print(list)
+# 2. adding element at the end of the list
+list.append(99)
+# list: [1, 2, 3, 100, 4, 99]
+print(list)
+
+# OUTPUT: [1, 2, 3, 100, 4], [1, 2, 3, 100, 4, 99]
