@@ -7,16 +7,6 @@ print(numbers[0])
 print(numbers[5])
 
 
-## NEGATIVE INDEXING:
-# a list of strings
-list = ["hello", "world", "hi", "bye"]
-# prints "bye"
-print(list[-1])
-# prints "world"
-print(list[-3])
-
-# OUTPUT: bye, world
-
 
 ## SLICING IN LIST:
 # list of numbers
@@ -31,18 +21,11 @@ print(list[3:])
 # output: [2, 3], [1, 2, 3], [4, 5, 6, 7]
 
 
-## LIST OPERATIONS:
-# list of numbers
-list = [1, 2, 3, 4]
-
-# 1. adding item at the desired location
-# adding element 100 at the fourth location
-list.insert(3, 100)
-# list: [1, 2, 3, 100, 4]
-print(list)
-# 2. adding element at the end of the list
-list.append(99)
-# list: [1, 2, 3, 100, 4, 99]
-print(list)
-
-# OUTPUT: [1, 2, 3, 100, 4], [1, 2, 3, 100, 4, 99]
+## Define Sum_list
+def sum_list(items):
+    sum_num = 0
+    for x in items:
+        sum_num += x
+    return sum_num
+print(sum_list([1,2,8]))
+# Output: 11
