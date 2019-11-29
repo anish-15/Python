@@ -1,12 +1,15 @@
-## # Function to demonstrate printing pattern 
+## Program to print Pyramid pattern 
+# AUTHOR(s):  Anish Kumar
+# SYSTEM: WINDOWS64
+
 def pypart(n): 
       
     # outer loop to handle number of rows 
     # n in this case 
     for i in range(0, n): 
       
-        # inner loop to handle number of columns 
-        # values changing acc. to outer loop 
+        # Inner loop to handle number of columns 
+        # values changing according to outer loop 
         for j in range(0, i+1): 
           
             # printing stars 
