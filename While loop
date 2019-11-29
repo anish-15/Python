@@ -19,3 +19,19 @@ while i <= n:
 print("The sum is", sum)
 
 # Output: The sum is 55
+
+
+
+## Use of else statement with the while loop
+
+counter = 0
+
+while counter < 3:
+    print("Inside loop")
+    counter = counter + 1
+else:
+    print("Inside else")
+# Output: Inside loop
+Inside loop
+Inside loop
+Inside else
