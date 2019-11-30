@@ -1,4 +1,4 @@
-## Multiplication table (from 1 to 10) in Python
+## Program to find sum of natural number:
 
 # User input
 num = int(input("Enter number "))
