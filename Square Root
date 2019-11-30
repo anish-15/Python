@@ -1,0 +1,11 @@
+## Python Program to calculate the square root:
+# AUTHOR(s):  Anish Kumar
+# SYSTEM: WINDOWS64
+
+# User input
+num = float(input('Enter a number: '))
+num_sqrt = num ** 0.5
+print('The square root of %0.1f is %0.1f'%(num ,num_sqrt))
+
+# Output: Enter a number: 9
+The square root of 9.0 is 3.0
