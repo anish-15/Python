@@ -1,0 +1,14 @@
+## Program to find string is palindrome or not:
+# AUTHOR(s):  Anish Kumar
+# SYSTEM: WINDOWS64
+
+# user input
+string=input(("Enter a string:"))
+# check string is revesed or not
+if(string==string[::-1]):
+      print("The string is a palindrome")
+else:
+      print("Not a palindrome")
+      
+# output: Enter a string:jij
+          The string is a palindrome
