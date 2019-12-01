@@ -1,0 +1,22 @@
+## Program to sort alphabetically the words from a string:
+# AUTHOR(s):  Anish Kumar
+# SYSTEM: WINDOWS64
+
+#User input
+my_str = input("Enter a string: ")
+# breakdown the string into a list of words
+words = my_str.split()
+# sort the list
+words.sort()
+# display the sorted words
+print("The sorted words are:")
+for word in words:
+   print(word)
+   
+# Output:
+Enter a string: welcome to aws cloud
+The sorted words are:
+aws
+cloud
+to
+welcome
