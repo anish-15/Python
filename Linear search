@@ -1,0 +1,25 @@
+## Program for linear search
+# AUTHOR(s):  Anish Kumar
+# SYSTEM: WINDOWS64
+
+items = [5, 7, 10, 12, 15]
+print("list of items is", items)
+
+x = int(input("enter item to search:"))
+
+i = flag = 0
+
+while i < len(items):
+    if items[i] == x:
+        flag = 1
+        break
+    i = i + 1
+
+if flag == 1:
+    print("item found at position:", i + 1)
+else:
+    print("item not found")
+
+# Output: list of items is [5, 7, 10, 12, 15]
+enter item to search:12
+item found at position: 4
