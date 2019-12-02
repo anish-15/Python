@@ -1,4 +1,6 @@
 ## Python program to find Area of a circle
+# AUTHOR(s):  Anish Kumar
+# SYSTEM: WINDOWS64
 
 def findArea(r):
 	PI = 3.142
